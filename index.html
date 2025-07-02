@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafandra pramudya alfarisie - Portofolio</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#hero" class="logo">Rafandra</a>
+                <ul class="nav-links">
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#hobbies">Hobi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Halo, saya <span class="highlight">Rafandra Pramudya Alfarisie</span>.</h1>
+                <p class="tagline">Seorang <span class="text-typewriter">Siswa SMK AK Nusa Bangsa</span> dengan semangat membangun pengalaman digital yang indah dan fungsional.</p>
+                <div class="hero-buttons">
+                    <a href="#hobbies" class="btn btn-primary">Lihat Hobi Saya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/saya.jpg" alt="Foto saya">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p class="lead">Saya adalah seorang Pelajar dari SMK AK Nusa bangsa dari jurusan RPL yang bersemangat untuk menciptakan solusi digital yang efisien dan user-friendly. Dengan umur saya yang masih muda sayang ingin terus mancari ilmu, saya fokus pada detail dan selalu ingin belajar teknologi baru.</p>
+        </div>
+    </section>
+
+    <section id="hobbies" class="hobbies-section section-padding bg-light">
+        <div class="container">
+            <h2>Hobi Saya</h2>
+            <p class="lead">Selain bergabung dengan dunia pemrograman, saya juga memiliki beberapa hobi yang saya nikmati untuk menjaga keseimbangan dan inspirasi.</p>
+            <div class="hobbies-grid skills-grid">
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-book-reader"></i> Membaca Manga</h3>
+                    <p>Membaca manga dari anime yang belum rilis dan  baru ada di manga nya saja karena penasaran dengan alur cerita nya.</p>
+                </div>
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-gamepad"></i> Bermain Game</h3>
+                    <p>Saya sangat menyukai game yang dapat memutar otak untuk mencapai kemenangan sehingga memiliki kesenangan tersendiri saat meraih kemenangan.</p>
+                </div>
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-running"></i> Running</h3>
+                    <p>Berlari adalah kegiatan fisik yang sangat saya suka karena selain baik untuk kebugaran saya, saya juga sangat suka lari lari.</p>
+                </div>
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-volleyball-ball"></i> Badminton</h3>
+                    <p>Bermain bulutangkis adalah cara yang menyenangkan untuk berolahraga dan bersosialisasi dengan teman.</p>
+                </div>
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-coffee"></i> Pergi ke Caffe</h3>
+                    <p>Menikmati suasana kafe yang nyaman sering menjadi tempat ideal untuk ngobrol bareng temen temen sambil menikmati kopi.</p>
+                </div>
+                <div class="hobby-item skill-category">
+                    <h3><i class="fas fa-tv"></i> Menonton Anime</h3>
+                    <p>Selain membaca manga saya juga menonton anime untuk menghilangkan lelah karena menonton sanngat menghibur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding bg-dark">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p class="lead">Memiliki pertanyaan, atau hanya ingin menyapa? Jangan ragu untuk menghubungi!</p>
+            <form action="your-form-submission-endpoint.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Nama lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tulis pesanmu di sini..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/Rapzsz" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <script src="/JS/script.js"></script>
+</body>
+</html>
